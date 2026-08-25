@@ -1,0 +1,50 @@
+Your final unsupervised project
+
+Plant Leaf Pattern & Similarity Discovery Using Unsupervised Learning
+
+It now contains:
+
+ResNet50 → extracts visual features
+StandardScaler → standardizes features
+PCA → dimensionality reduction
+K-Means → partition-based clustering
+DBSCAN → density-based clustering
+Silhouette Score → cluster quality
+Davies-Bouldin Index → cluster quality
+Calinski-Harabasz Score → cluster quality
+PCA visualization → visual pattern discovery
+Cluster explorer → inspect leaves in each cluster
+Similarity search → retrieve visually similar leaves
+Streamlit UI → interactive application
+What remains before you call it "finished"
+
+1. Fix the small-dataset issue
+The slider error you just encountered needs the code fix I gave you.
+
+2. Use a real dataset
+Don't test it with 3 screenshots. Use preferably 50–100+ actual plant-leaf images.
+
+3. Run the complete pipeline
+Make sure K-Means and DBSCAN actually produce valid clusters and the evaluation metrics appear.
+
+4. Record your actual results
+For example:
+
+K-Means
+Silhouette: 0.XX
+Davies-Bouldin: 0.XX
+Calinski-Harabasz: XXX
+
+DBSCAN
+Silhouette: 0.XX
+Davies-Bouldin: 0.XX
+Calinski-Harabasz: XXX
+
+Do not put invented numbers in your CV.
+
+5. Test Similar Leaf Search
+Upload a new leaf and verify that the returned images genuinely look similar.
+
+6. Push it to GitHub + deploy it.
+
+After those checks, yes, stop adding features. Don't turn this into CNN + GAN + autoencoder + classification + recommendation + 15 algorithms. That would make the project bloated rather than better.

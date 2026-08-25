@@ -1,0 +1,27 @@
+streamlit
+numpy
+pandas
+matplotlib
+scikit-learn
+pillow
+torch
+torchvision
+
+# ┌─────────────────────────────────────────────────────────────┐
+# │  🌿 Plant Leaf Pattern & Similarity Discovery               │
+# │                                                             │
+# │  Discover visual patterns without predefined labels         │
+# ├─────────────────────────────────────────────────────────────┤
+# │                                                             │
+# │  Dataset                                                   │
+# │  ┌───────────────────────────────────────────────────────┐  │
+# │  │  Upload plant leaf images                             │  │
+# │  │  [ Browse files ]                                     │  │
+# │  └───────────────────────────────────────────────────────┘  │
+# │                                                             │
+# │  120 Images     2048 Features     4 Clusters     3.2s       │
+# │                                                             │
+# └─────────────────────────────────────────────────────────────┘
+
+# pip install -r requirements.txt
+# streamlit run project.py
